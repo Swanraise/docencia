@@ -1,0 +1,473 @@
+
+Una cuestión por semana, desde la primera hasta la 280ava (1º a 4º ESO), términos relacionados con la Historia, Arte, Geografía, Lingüismo y Ciudadanía:
+
+***************************A-D (001-200)************************
+
+A
+#001 Abecedario y vocabulario 					DDD
+#002 Abogado y notario						DDD
+#003 Aburrido y huraño						DDD
+#004 Academia y universidad					DDD
+#005 Acento y tilde						DDD
+#006 Acrónimo, acortamiento, sigla y abreviatura		DDD
+#007 Aditivo y aditamento					DDD
+#008 Aeródromo y aeropuerto					DDD
+#009 Afablemente y amablemente					DDD
+#010 Agresión sexual y abuso sexual				DDD
+#011 Aguantar y soportar					DDD
+#012 Alienado y enajenado					DDD
+#013 Almorávides, almohades y almogávares			DDD
+#014 Ambición y avaricia					DDD
+#015 Ambular y deambular					DDD
+#016 Ambulatorio y hospital					DDD
+#017 Amplificador y repetidor (wifi)				DDD
+#018 Anacardo y cacahuete					DDD
+#019 Anacrónico y ucrónico					DDD
+#020 Analepsis, prolepsis y elipsis				DDD
+#021 Anfetaminta y metanfetamina				DDD
+#022 Anfranctuosidad e infructuosidad				DDD
+#023 Antecedentes y precedentes					DDD
+#024 Antiinflamatorio (ibuprofeno), analgésico (paracetamol) y antibiótico DDD
+#025 Anywhere y somewhere					DDD
+#026 Apio y opio						DDD
+#027 Apoderar y empoderar					DDD
+#028 Apotropaico y protector 					DDD
+#029 Aprender y aprehender 					DDD
+#030 Apuntar y anotar						DDD
+#031 Argumento ontológico y argumento teológico			DDD
+#032 Armónica y filarmónica					DDD
+#033 Armonizar y estandarizar					DDD
+#034 Arqueología y antropología					DDD
+#035 Asegurar y garantizar					DDD
+#036 Asiduo y asidero						DDD
+#037 Asunto y trasunto						DDD
+#038 Asustadizo y cobarde					DDD
+#039 Átona y tónica						DDD
+#040 Autenticidad y originalidad				DDD
+#041 Autentificación y autenticación				DDD
+#042 Ávido e impávido						DDD
+#043 Aviso y advertencia					DDD
+#044 Avistar y atisbar						DDD
+B
+#051 Baile y bailía						DDD
+#052 Balar y balada						DDD
+#053 Barbacoa y grill						DDD
+#054 Bardo y juglar						DDD
+#055 Barlovento (va-a-llover-tó) y sotavento 			DDD
+#056 Beber agua fría del grifo y beber agua caliente del grifo	DDD
+#057 Bidireccional y bilateral					DDD
+#058 Blockbuster y secuela falsa				DDD
+#059 Boliviano y bolivariano					DDD
+#060 Bujía y rebujado						DDD
+#061 Buscar y encontrar						DDD
+C
+#101 Cámara de seguridad y cámara de vigilancia			DDD
+#102 Cambiar y adaptar						DDD
+#103 Cáncer y metástasis					DDD
+#104 Cándido y candidato					DDD
+#105 Cansancio y extenuación					DDD
+#106 Capacidad y habilidad					DDD
+#107 Cárcel y prisión						DDD
+#108 Cartel y cártel						DDD
+#109 Casa y hogar						DDD
+#110 Casualidad, causalidad y correlación			DDD
+#111 Catarata y cascada						DDD
+#112 Causticidad y castidad					DDD
+#113 Celda y celada						DDD
+#114 Cerdas (animal) y cerdas del pincel			DDD
+#115 Charada y chorrada						DDD
+#116 Chaveta y chavo						DDD
+#117 Científico y cientifista					DDD
+#118 Cigarrito, cigarro y cigarrillo				DDD
+#119 Clasicismo y naturalismo					DDD
+#120 Cocinero y chef						DDD
+#121 Codificar y encriptar					DDD
+#122 Código ontológico y código deontológico			DDD
+#123 Coherencia y consistencia					DDD
+#124 Colesterol bueno (HDL) y el malo (LDL)			DDD
+#125 Colina, pico, montaña y altozano				DDD
+#126 Colusión y conclusión					DDD
+#127 Combatir y luchar						DDD
+#128 Combinatoriedad y creatividad				DDD
+#129 Comer y alimentar						DDD
+#130 Comillas latinas, inglesas y simples («», "", '')		DDD
+#131 Compartir y competir (relaciones de pareja)		DDD
+#132 Competición y deporte					DDD
+#133 Comprensión y entendimiento				DDD
+#134 Concepto y término						DDD
+#135 Conciso y concesión					DDD
+#136 Confianza y seguridad					DDD
+#137 Connivencia y convivencia					DDD
+#138 Contaminación y corrupción					DDD
+#139 Contenerse y abstenerse					DDD
+#140 Copyright y copyleft					DDD
+#141 Corbeta, fragata, destructor, crucero y acorazado		DDD
+#142 Coste y costo						DDD
+#143 Costurero y sastre						DDD
+#144 Cotidiano y ordinario					DDD
+#145 Creatividad y originalidad					DDD
+#146 Crecer y madurar						DDD
+#147 Cripta y encriptado					DDD
+#148 Cuadriga y áuriga						DDD
+D
+#151 Dantesco y esperpento					DDD
+#152 Dar y trasladar						DDD
+#153 Deber y deber de						DDD
+#154 Debilidad y vulnerabilidad					DDD
+#155 Decreto y precepto						DDD
+#156 Deferencia e indiferencia					DDD
+#157 Delicuescente y delincuente				DDD
+#158 Democracia y demagogia					DDD
+#159 Densificar y expandir					DDD
+#160 Descente y decadente					DDD
+#161 Descentralizar y desconcentrar				DDD
+#162 Desorden y caos						DDD
+#163 Despertarse y levantarse					DDD
+#164 Déspota, tirano y dictador					DDD
+#165 Diaclasa, fractura y falla					DDD
+#166 Dibujo, cómic y viñeta					DDD
+#167 Dinamita y bomba						DDD
+#168 Distinto y diferente					DDD
+#169 Dirección y sentido					DDD
+#170 Diurno y diario						DDD
+#171 Divorcio y separación					DDD
+#172 Doblado y partido						DDD
+#173 Duende y gnomo						DDD
+
+***************************E-H (201-400)************************
+
+E
+#201 Eclíptica y elíptica					DDD
+#202 Eficacia y eficiencia					DDD
+#203 Efusividad y difuso					DDD
+#204 Electrónica, electrotecnia y electricidad			DDD
+#205 Elocuente y grandilocuente					DDD
+#206 Emocional y emotivo					DDD
+#207 Empatía y simpatía						DDD
+#208 Encomendar y Recomendar					DDD
+#209 Endémica y pandémica					DDD
+#210 Enfado, enojo y crispación					DDD
+#211 Enfrentamiento y confrontamiento				DDD
+#212 Ergonomía y economía					DDD
+#213 Erotismo y sensualidad					DDD
+#214 Erudito y sabio						DDD
+#215 Escarbar y excavar						DDD
+#216 Escudo y escudilla						DDD
+#217 Escuela, Colegio e Instituto				DDD
+#218 Especie y raza						DDD
+#219 Esquimal y esquilmar					DDD
+#220 Estado y disposición					DDD
+#221 Estantería y librero					DDD
+#222 Estirpe y genealogía					DDD
+#223 Estúpido e idiota						DDD
+#224 Esvástica y sauvática					DDD
+#225 Ética y estética						DDD
+#226 Etnia, raza, clase y especie				DDD
+#227 Eufonía y misofonía					DDD
+#228 Excusa y justificación					DDD
+#229 Exhumar e inhumar						DDD
+#230 Explanada y altozano					DDD
+#231 Explosión y estallido					DDD
+#232 Extraterrestre y alienígena				DDD
+F
+#251 Falsedad y mentira						DDD
+#252 Famélico y desnutrido					DDD
+#253 Familia y clan						DDD
+#254 Fanático y profano						DDD
+#255 Fenestrar y defenestrar					DDD
+#256 Flema y flama						DDD
+#257 Flexible y reflexivo 					DDD
+#258 Fluidez y rapidez						DDD
+#259 Formación y preparación					DDD
+#260 Formal e informal						DDD
+#261 Fracasar y equivocarse					DDD
+#262 Frecuencia y cadencia					DDD
+#263 Frívolo y cínico						DDD
+G
+#301 Ganso y oca						DDD
+#302 Geología y Geomorfología					DDD
+#303 Gematría y Geometría					DDD
+#304 Genuino y auténtico					DDD
+#305 Gloria y victoria						DDD
+#306 Guapo/a y atractivo/a					DDD
+#307 Guiño y cameo						DDD
+#308 Gorro y sombrero						DDD
+#309 Gótico y gótico						DDD
+H
+#351 Hábito y rutina						DDD
+#352 Haraganear y holgazanear					DDD
+#353 Hastío, tedio y apatía					DDD
+#354 He suspendido y me han suspendido 				DDD
+#355 Hecatombe y calamidad					DDD
+#356 Hecho y dato						DDD
+#357 Hematuria y hemalurgia					DDD
+#358 Hembrismo y feminismo					DDD
+#359 Hilar e hilvanar						DDD
+#360 Hinterlands y Netherlands					DDD
+#361 Histérico e histriónico					DDD
+#362 Historia e historia					DDD
+#363 Homónimo y anónimo						DDD
+#364 Horadar y ahondar						DDD
+#365 Horrible y horrendo					DDD
+#366 Hospital y centro de salud					DDD
+
+***************************I-Ñ (401-600)************************
+
+I
+#401 Icónico, iconográfico e iconológico			DDD
+#402 Idea e ideología 						DDD
+#403 Identificar y verificar					DDD
+#404 Igual y homogéneo						DDD
+#405 Igualdad y equidad						DDD
+#406 Ilegal y alegal						DDD
+#407 Imaginar y visualizar					DDD
+#408 Impostar y modular (la voz)				DDD
+#409 Impresora y copistería					DDD
+#410 Improviso e imprevisto					DDD
+#411 Inaguantable e insoportable				DDD
+#412 Inalterable y estático					DDD
+#413 Inane e inmanente						DDD
+#414 Incidente y accidente					DDD
+#415 Inconformismo e insatisfacción				DDD
+#416 Indefinido y no definido					DDD
+#417 Indígena e indigente					DDD
+#418 Indirecto y colateral					DDD
+#419 Inédito e inaudito						DDD
+#420 Inferir y proponer						DDD
+#421 Inflación y estanflación					DDD
+#422 Inflamable y flamable					DDD
+#423 Información y conocimiento					DDD
+#424 Inhumación e incineración					DDD
+#425 Institución, organismo, organización y fundación		DDD
+#426 Integrarse y adaptarse					DDD
+#427 Intemporal y atemporal					DDD
+#428 Intenso e intensivo					DDD
+#429 Internacional y transnacional (internet)			DDD
+#430 Interregno y Regencia					DDD
+#431 Intimidad, intimidar y extimidad				DDD
+#432 Introducción y preludio					DDD
+#433 Intuir y prever						DDD
+#434 Invulnerable e invencible					DDD
+#435 Iterar y reiterar						DDD
+J
+#441 Jurar y prometer						DDD
+#442 Justicia y justicia social					DDD
+K
+#461 Kinestesia y kinesiología					DDD
+#462 Kovjoz y sovjoz						DDD
+L
+#481 Laico, laicista y aconfesional				DDD
+#482 LED y neón							DDD
+#483 Lento y tranquilo						DDD
+#484 Libertad religiosa y tolerancia religiosa			DDD
+#485 Librería y biblioteca					DDD
+#486 Límite y umbral						DDD
+#487 Limpio, impecable e inmaculado				DDD
+#488 Lluvia ácida y lluvia radiactiva				DDD
+#489 Localización y ubicación					DDD
+#490 Logaritmo y algoritmo					DDD
+#491 Lógica e Ideología						DDD
+#492 Lugareño e indígena					DDD
+M
+#521 Maduro y podrido						DDD
+#522 Mage, magician y wizard					DDD
+#523 Magnesio y manganeso					DDD
+#524 Maja y simpática (persona)					DDD
+#525 Malo, maldad, malicia, malicie y malvado			DDD
+#526 Malware y rogueware					DDD
+#527 Mandar y dirigir						DDD
+#528 Manerismo y manierismo					DDD
+#529 Mapa y plano						DDD
+#530 Mareo y vértigo						DDD
+#531 Matar y asesinar						DDD
+#532 Maximizar e incrementar					DDD
+#533 Médico, curandero y sanitario				DDD
+#534 Melancolía y nostalgia					DDD
+#535 Menaje y homenaje						DDD
+#536 Menta y hierbabuena					DDD
+#537 Mentira verdadera y verdad falsa				DDD
+#538 Meteoro y meteorito					DDD
+#539 Misterio y suspense					DDD
+#540 Misticismo y esoterismo					DDD
+#541 Mito y leyenda						DDD
+#542 Modelo y forma						DDD
+#543 Módem y router						DDD
+#544 Mogol y mongol						DDD
+#545 Monitor y entrenador					DDD
+#546 Moralidad y lealtad					DDD
+#547 Moverse y desplazarse					DDD
+#548 Municipio, comarca y localidad				DDD
+#549 Muro y tabique						DDD
+#550 Música country y música Dark country			DDD
+#551 Mutación y transmutación					DDD
+N
+#561 Naturalismo y realismo					DDD
+#562 Nazismo y nacionalsocialismo 				DDD
+#563 Neoclasicismo y clasicismo moderno				DDD
+#564 Nepotismo y nepotismo positivo				DDD
+#565 Normal, corriente y cotidiano				DDD
+Ñ
+#591 DDD
+
+***************************O-T (601-800)************************
+
+O
+#601 Obligatoriedad, implicación y responsabilidad		DDD
+#602 Ocultación y ofuscación					DDD
+#603 Oír, escuchar y atender					DDD
+#604 Omnisciente y equisciente					DDD
+#605 Onomática y onomástica					DDD
+#606 Organista y organicista					DDD
+#607 Oriente Medio (EU) y Middle East (EE.UU.)			DDD
+P
+#641 Pacto y tratado						DDD
+#642 Parábola y paradoja					DDD
+#643 Paracetamol e ibuprofeno					DDD
+#644 Paralelismo y comparación					DDD
+#645 Parar y estacionar						DDD
+#646 Paripé y charada						DDD
+#647 Parodia y sátira						DDD
+#648 Paroxismo y parodia					DDD
+#649 Patriarcado y machismo					DDD
+#650 Patrimonio y matrimonio					DDD
+#651 Penable y punible						DDD
+#652 Perdonar y olvidar						DDD
+#653 Permiso y licencia						DDD
+#654 Personalidad, personidad, actuación y faceta		DDD
+#655 Perspicacia y suspicacia					DDD
+#656 Perturbado y loco						DDD
+#657 Plataforma, dispositivo, máquina y equipo			DDD
+#658 Plática y platónico					DDD
+#659 Polarización y radicalización				DDD
+#660 Polis griega y ciudad cosmopolita				DDD
+#661 Políticas identitarias y tribalismo			DDD
+#662 Precognición y premonición					DDD
+#663 Preconcepción y prejuicio					DDD
+#664 Prefecto y perfecto					DDD
+#665 Presencia y esencia					DDD
+#666 Preservación y conservación				DDD
+#667 Pródigo y prodigio						DDD
+#668 Producción y gestación					DDD
+#669 Pronóstico y profecía					DDD
+#670 Propagación, distribución y difusión			DDD
+#671 Propano y butano						DDD
+#672 Proposición y preposición					DDD
+#673 Psicológico y psíquico					DDD
+#674 Psicólogo y psiquiatra					DDD
+Q
+#681 Quejarse y criticar					DDD
+R
+#701 Racista y especista 					DDD
+#702 Ratón y rata						DDD
+#703 Raya y línea						DDD
+#704 Razzia y escaramuza					DDD
+#705 Reasignar y resignar					DDD
+#706 Rebelión y sedición					DDD
+#707 Reconocimiento y comprensión				DDD
+#708 Recuerdo y memoria						DDD
+#709 Relator y delator						DDD
+#710 Relegar y delegar						DDD
+#711 Religión y culto (religio et cultus)			DDD
+#712 Reluctancia y jactancia					DDD
+#713 Remake, reboot y remaster					DDD
+#714 Remiso y sumiso						DDD
+#715 República china (China) y república popular china (Taiwán) DDD
+#716 Reseña y ensayo						DDD
+#717 Respetar y soportar desde el respeto			DDD
+#718 Responsabilidad y deber					DDD
+#719 Restricción y constricción					DDD
+#720 Riña y reyerta						DDD
+#721 Río y ría							DDD
+#722 Riqueza y renta						DDD
+#723 Romántico y amoroso					DDD
+#724 Rutina y hábito						DDD
+S
+#733 Salario y sueldo						DDD
+#734 Secuencia y concatenación					DDD
+#735 Secular, regular y seglar (clero)				DDD
+#736 Sedente y supino						DDD
+#737 Seguridad y libertad					DDD
+#738 Sencillo y Simple						DDD
+#739 Sentimental y emocional					DDD
+#740 Sentir responsabilidad y tomar responsabilidad		DDD
+#741 Ser humano-ciudadano-persona				DDD
+#742 Ser y deber ser						DDD
+#743 Sexo y género						DDD
+#744 Simple y Simplista						DDD
+#745 Simulación y emulación					DDD
+#746 Sinestesia y sin anestesia					DDD
+#747 Sobrevivencia y supervivencia				DDD
+#748 Sola y solitaria						DDD
+#749 Solana y umbría						DDD
+#750 Soliloquio y circumloquio					DDD
+#751 Solo y soltero						DDD
+#752 Somero y lacónico						DDD
+#753 Sonámbulo y noctámbulo					DDD
+#754 Spelling y pronunciation					DDD
+#755 Sucinto y lacónico						DDD
+#756 Suculenta y truculenta					DDD
+#757 Suicidio y autodestrucción					DDD
+#758 Sueño y ensueño						DDD
+#759 Sueño y vigilia						DDD
+#760 Sugerencia y advertencia					DDD
+T
+#766 Taberna y cantina						DDD
+#767 Tara, minusvalía e impedimento				DDD
+#768 Teleportar y teletransportar				DDD
+#769 Temperamento y visceralidad				DDD
+#770 Templum y fanum						DDD
+#771 Tener y sostener						DDD
+#772 Teoría y teorema						DDD
+#773 Término y concepto						DDD
+#774 Terra sigillata y terracota				DDD
+#775 Testigo y testaferro					DDD
+#776 Timetable y Schedule					DDD
+#777 Timing, prime time y momentum				DDD
+#778 Tipología y clasificación (climas y sus modelos p.e.)	DDD
+#779 Tirón y latigazo						DDD
+#780 Tono y melodía						DDD
+#781 Tonto y necio						DDD
+#782 Topología y tipología					DDD
+#783 Trabajador y empleado					DDD
+#784 Tradición y hábito						DDD
+#785 Tráiler y teaser						DDD
+#786 Trama y urdimbre						DDD
+#787 Trastámara y Tramacastilla					DDD
+#788 Trinitrotolueno y nitroglicerina				DDD
+#789 Trueno, rayo y relámpago					DDD
+
+***************************U-Z (801-999)***********************
+
+U
+#801 Ucronía y entelequia					DDD
+#802 Ucrónico y anacrónico					DDD
+#803 Utopía y distopía 						DDD
+#804 Útil y fútil						DDD
+V
+#851 Vaca y baca						DDD
+#852 Valorar y valorizar					DDD
+#853 Vasca y basca						DDD
+#854 Vencer y convencer						DDD
+#855 Venerar y adorar						DDD
+#856 Ver y observar						DDD
+#857 Veracidad y verosimilitud					DDD
+#858 Verdadero y verosímil					DDD
+#859 Verduras y hortalizas					DDD
+#860 Vértice y vórtice						DDD
+#861 Viejo y Antiguo						DDD
+#862 Violencia y violencia administrativa			DDD
+#863 Virulencia y contagio					DDD
+#864 Visceralidad e histerismo					DDD
+#865 Viscoso y pegajoso						DDD
+#866 Volar y planear (avión) (imaginación) ...			DDD
+W
+#901 DDD							DDD
+X
+#921 DDD							DDD
+Y
+#941 DDD							DDD
+Z
+#971 DDD							DDD
+
+NÚMERO DE COMPARACIONES EN TOTAL:
+#DDD

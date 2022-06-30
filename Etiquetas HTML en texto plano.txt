@@ -1,0 +1,735 @@
+<!-- LISTADO DE ETIQUETAS, ATRIBUTOS Y VALORES ESPECÍFICOS EN HTML5: https://www.w3schools.com/tags/tag_doctype.asp + https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos -->
+<!-- Anotaciones -->
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8"/>
+		<title> Título </title>
+	</head>
+	<body>
+		<h1>Encabezado principal </h1>
+		Para visualizar correctamente el archivo, se requiere unas dimensiones del monitor de 1920 x 1080 y maximizar la ventana del archivo a mostrar en la pantalla.
+	</body>
+</html>
+[Comienzo obligatorio para informar al navegador del tipo de documento que se usará]
+
+
+<a> Representa un hiperenlace, enlazando a otro recurso. Todo attbto tiene o no su ejemplo </a>
+	<a download="gatitos"> El objeto se descargará cuando se clique el hipervínculo</a> 				[filename]
+	<a href= 'Ejemplo.html'> Muestra el Localizador Uniforme de Recursos asociado </a> 				[URL]
+	<a hreflang= "en-es"> Especifica idioma y región para el contenido destinado </a> 				[language_code]
+	<a media="value"> Indica el dispositivo o medio más óptimo para dicho documento </a>				[media_query]
+	<a ping= "www.BS.com/trackpings"> Monitorea y notifica cuando alguien ejecuta un link</a>			[list_of_URLs]
+	<a referrerpolicy=""> Señala qué valor remitente mostrar al usuario </a> 					[no-referrer, no-referrer-when-downgrade, origin, origin-when-cross-origin, unsafe-url]
+	<a rel="something"> Especifica la relación entre el documento actual y el enlazado </a>				[alternate, author, bookmark, external, help, license, next, nofollow, 	noreferrer, noopener, prev, search, tag]
+	<a target="_blank"> Especifica dónde abrir el documento enlazado </a>						[_blank, _parent, _self, _top]
+	<a type="text/html"> Sitúa el formato que tiene un archivo enlazado </a>					[media_type]
+
+
+<abbr title="Today I learned"> Define una abreviación o acrónimo {TIL} </abbr>
+
+
+<address> Sección que da información del contacto (autor, dirección, web, país...) </address>
+
+
+<area> Mapa Imagen que posee zonas interactivas y elementos clicables en su interior </area>
+	<area alt="None"> Texto alternativo para el área (requerido si href está presente) </area> 			[text]
+	<area coords="150, 150, 150"> Coordenadas que tendrá cada área en Mapa Imagen </area>				[coordinates]
+	<area download="gatitos"> El objeto se descargará cuando se clique el objeto </area>				[filename]
+	<area href="sun.htm"> Especifica el hipervínculo ojetivo de dicha área </area>					[URL]
+	<area hreflang="es-mx"> Especifica idioma y región para el elemento destinado </area>				[language_code]
+	<area media="screen"> Indica el dispositivo o medio más óptimo para reproducirlo </area>			[media query]
+	<area rel="alternate"> Muestra la relación entre el documento actual y el enlazado </area> 			[alternate, author, bookmark, help, license, next, nofollow, noreferrer, prefetch, prev, search, tag]
+	<area shape="circle"> Especifica la forma de cada área en el Mapa Imagen </area>				[default, rect, circle, poly]
+	<area target="_top"> El objetivo donde se abrirá un documento del Mapa Imagen </area>				[_blank, _parent, _self, _top, framename]
+	<area type="image/gif"> Indica el tipo de formatos multimedia de la URL objetivo </area>			[media_type]
+
+
+<article> Define contenido autónomo independiente del restante sitio y contenido </article>
+
+
+<aside> Define contenidos poco relacionados con el resto del contenido de la página </aside>
+
+
+<audio> Incorpora fuentes de sonido mp3, wav y ogg en un documento web </audio>
+	<audio controls autoplay> Archivo de audio que siempre empieza automáticamente </audio> 			[autoplay]
+	<audio controls> Refiere a controles de reproducción que deberían mostrarse </audio> 				[controls] {play, pause, seeking, volume}
+	<audio controls loop> Reproducir de nuevo un archivo cada vez que termina </audio>				[loop]
+	<audio controls muted> Archivo de audio silenciado {luego se dicen las fuentes} </audio>			[muted]
+	<audio controls preload="none"> El sonido no debería cargarse cuando F5 la página </audio>			[auto, metadata, none]
+	<audio src="horse.ogg" controls="play"> Especifica la localización de un archivo </audio>			[URL]
+
+
+<b> Texto en negrita (sin marcarlo como texto importante, tan solo propósitos utilitarios) </b>
+
+
+<base> Fija la URL base para las URL relativas en la página. </base>
+	<base href="https://www.BS.com"> Solo puede haber 1 dentro de «head» siempre con href o con target </base>	[URL]
+	<base target="_blank"> Objetivo predeterminado para todos los hiperenlaces de una página </base>		[_blank, _parent, _self, _top]
+
+
+<bdi> Aísla un texto de su alrededor para incrustar caracteres desconocidos </bdi>
+
+
+<bdo> Recorre un texto de manera distinta a la predeterminada Unicode </bdo>					
+	<bdo dir="rtl"> Los caracteres aparecerán right to left, de derecha a izquierda </bdo> 				[ltr, rtl]
+
+
+<blockquote> Resaltar partes de un texto cambiando su formato (cita textual) </blockquote>
+
+
+<body> Cuerpo del texto donde dentro irá subordinado todo lo que escribamos </body>
+
+
+<br/> Inserta un salto de línea sin añadir espacio entre párrafos. Nunca tiene contenido
+
+
+<button> Botón clicable (generalmente se indica 1º su tipología de atributo) </button>
+	<button autofocus> Un botón automático hará focus cuando la página se cargue </button>				[autofocus]
+	<button disabled> Aparecerá un botón ensombrecido e inaccesible para clicar </button>				[disabled]
+	<button form="form1"> Botón localizado fuera de un "formulario" pero perteneciente a ella </button>		[form_id]
+	<button formaction="/action_page2.php"> 2 botones "Submit" que realizarán dos acciones distintas </button>	[URL]
+	<button formenctype="text/plain"> igual que arriba pero el 2ª no codificará caracteres insertados </button>	[application/x-www-form-urlencoded, multipart/form-data, text/plain]
+	<button formmethod="post"> 2 botones, una opción es más pública (url) y la otra privada </button>		[get, post]
+	<button formnovalidate> Dos botones, permite como 2ª opción enviar algo no válido </button>			[formnovalidate]
+	<button formtarget="_blank"> 2 botones, el 2º abre una nueva ventana con lo introducido </button>		[_blank, _parent, _self, _top, framename]
+	<button name="subject"> Dos botones de mismo nombre que envían diferentes valores al clicar </button>		[name]
+	<button type="reset"> Dos botones de elementos: el primero envía y el segundo resetea </button>			[button, reset, submit]
+	<button value="fav_CSS"> Igual que el atributo name pero especificándoles valores iniciales </button> 		[text]
+
+
+<canvas> Área de mapa de bits pudiendo usar scripts para gráficos y renderizaciones </canvas>
+
+
+<caption> Debe insertarse tras «table» para definir e insertar texto en ella </caption>
+
+
+<cite> Indica cuando algo escrito no es de tu autoría o el título de una obra en cursiva </cite>
+
+
+<code> Define cierto texto como código de ordenador (suele usarse más CSS en su lugar) </code>
+
+
+<col> Representa una columna de tabla (donde poder aplicar estilos enteros) </col>
+
+
+<colgroup> Muestra un conjunto de una o más columnas formateables (visualmente) </colgroup>
+	<colgroup span="2"> Especifica el nº de columnas que un grupo debería formatear </colgroup>			[number]
+
+
+<data> Traduce números enteros (integers) por caracteres (string) que forman palabras </data>
+	<data value="1055"> Permite hacer equivalencias entre los datos de máquinas-humanos </data>			[machine-readable format]
+
+
+<datalist> Opciones predefinidas para otros controles conectadas a un «input» </datalist>
+
+
+<dd> Representa la definición de los términos listados antes que él </dd>
+
+
+<del> Texto tachado encima </del>
+	<del cite="del_demo_cite.htm"> Cuando se explica porqué algo ha sido borrado y tal, en cursiva </del>		[URL]
+	<del datetime="2015-11-15T22:55:03Z"> Fecha del texto cuando fue suprimido/cambiado </del> 			[YYYY-MM-DDThh:mm:ssTZD]
+
+
+<details> Permite abrir/cerrar un widget que desglosa +info o control adicional </details>
+	<details open> Especifica que los detalles deberían ser visibles de primeras </details>				[open]
+
+
+<dnf> Define un elemento debiendo contener acto seguido la definición de dicho término </dnf>
+
+
+<dialog> Crea una subventana o caja de diálogo, para crear pop-ups emergentes web </dialog>
+
+
+<div> Representa un contenedor genérico sin ningún significado especial </div>
+
+
+<dl> Define una lista de definiciones (en plan términos y definiciones asociadas) </dl>
+
+
+<dt> Representa un término definido por el siguiente «dd» </dt>
+
+
+<em> Enfatiza el texto en cursiva </em>
+
+
+<embed/> Representa un punto de integración para una app o contenido interactivo externo no HTML 			{se recomiendan «img», «iframe», «video» y «audio» para tales fines}
+
+
+<fieldset> Representa un conjunto de controles </fieldset>
+	<fieldset disabled> Booleano (o un estado u otro) que inutiliza y no permite clicar un campo </fieldset>	[disabled]
+	<fieldset form="forma1"> Indica la forma a la que pertenece lo introducido en algo </fieldset>			[form_id]
+	<fieldset name="bg_color"> Permite formatear un campo específico mediante su nombre </fieldset>			[text]
+
+
+<figcaption> Representa la leyenda de una figura </figcaption>
+
+
+<figure> Representa una figura ilustrada como parte del documento </figure>
+
+
+<footer> Define el pie de una página o sección (para copyright, info para + feedback...) </footer>
+
+
+<form> Formulario. Conjunto de controles enviado a un servidor para su procesamiento </form>
+	<form accept-charset="ISO-8859-1"> Especifica la codificación de caracteres al enviar </form> 			[character_set]
+	<form action="/action_page.php"> Indica a dónde enviará el formulario de datos una vez rellenado </form>	[URL]
+	<form autocomplete="on"> Guarda historial de autocompletado de otras inputs del usuario </form> 		[on, off]
+	<form enctype="text/plain"> Transcribe los datos introducidos en cómo será recogido por el sitio </form> 	[application/x-www-form-urlencoded, multipart/form-data, text/plain]
+	<form enctype="application/x-www-form-urlencoded"></form>
+	<form enctype="multipart/form-data"></form>
+	<form method="get"> Abre nueva pestaña como reacción al enviar un formulario/cuestionario </form> 		[get, post]
+	<form name="fname"> Especifica el nombre de un formulario, usado para referenciar datos p.e. </form>		[text]
+	<form novalidate> Booleano (cero o uno) que indica algo inválido en el input recibido por alguien </form>	[novalidate]
+	<form rel> Establece una relación entre el documento actual y otro enlazado </form>				[external, help, license, next, nofollow, noopener, noreferrer, opener, prev, search]
+	<form target="_blank"> Especifica palabra clave e indica dónde mostrar una respuesta recibida </form> 		[_blank, _self, _parent, _top]
+
+
+<h1 to h6> Encabezados HTML de mayor a menor tamaño. Un h1 para toda una página </h1 to h6>
+
+
+<head> Colección de metadatos (enlaces, definiciones, scripts, hojas de estilo...) </head>				{«title» «style» «base» «link» «meta» «script» «noscript»}
+
+
+<header> Define la cabecera (logotipo, título de la Web, tabla navegación contenidos...) </header>
+
+
+<hr/> Salto dibujando una línea en la ventana de texto entre los párrafos de un contenido o sección
+
+
+<html> La raíz de un documento HTML o XHTML. Todo debe ser descendiente de este elemento </html>
+	<html xmlns="http://www.7.uk"> Nombre de espacio para usar en documentos XHTML, opcional para HTML5 </html>
+
+
+<i> Texto en un estado de ánimo alterno, designación taxonómica, tecnicismo... en cursiva </i>
+
+
+<iframe> Representa un contexto anidado de navegación (un documento HTML "embebido") </iframe>
+	<iframe allow> "Specifies a feature policy for the «iframe»" </iframe>
+	<iframe allowfullscreen> Puesto en True, pantalla completa con "requestFullscreen()"" </iframe>			[true, false]
+	<iframe allowpaymentrequest> Si se permite, invoca una Petición de Pago API </iframe>				[true, false]
+	<iframe height="200"> Especifica la altura de dicha etiqueta. 150 píxeles por defecto </iframe>			[pixels]
+	<iframe name="iframe_a"> Señala el nombre de esta tag (etiqueta) concreta </iframe>				[text]
+	<iframe referrerpolicy> Indica cuánta información del remitente sería enviada </iframe>				[no-referrer, no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url]
+	<iframe sandbox> Activa un set de restricciones para su contenido interno </iframe>				[allow-forms, allow-pointer-lock, allow-popups, allow-same-origin, allow-scripts, allow-top-navigation]
+	<iframe src="/default.asp"> Especifica la dirección de un documento incrustado en esta etiqueta </iframe>	[URL]
+	<iframe srcdoc="<p>Hello world!</p>"> Contenido HTML de una página para mostrarla en este tag </iframe>		[HTML_code]
+	<iframe width="200"> Especifica la anchura de dicha etiqueta. 300 píxeles por defecto </iframe>			[pixels]
+
+
+<img> Representa una imagen
+	<img alt="Girl in a jacket"> Especifica un texto alternativo para una imagen					[text]
+	<img crossorigin=""> Permite imágenes de webs de terceros y accesos cruzados para canvas			[anonymous, use-credentials]
+	<img height="600"> Especifica la altura de una imagen								[pixels]
+	<img ismap> Imagen que si clicas encima envía las coordenadas al servidor como un query str.			[ismap]
+	<img longdesc="w3html.txt"> Especifica un hipervínculo para la descripción detallada de una imagen		[URL]
+	<img referrerpolicy> Señala qué remitente usar cuando se busca una imagen					[no-referrer, no-referrer-when-downgrade, origin, origin-when-cross-origin, unsafe-url]
+	<img sizes=""> Determina el tamaño de la imagen para diferentes diseños de cada página				[sizes]
+	<img src="img_girl.jpg"> Muestra la ruta de la imagen que debe seguir el sistema para encontrarla		[URL]
+	<img srcset=""> Especifica una lista de archivos de imagen para usar en diferentes situaciones			[URL-list]
+	<img usemap="#workmap"> Usa una imagen como Mapa Imagen del 'client-side'					[#mapname]
+	<img width="500"> Especifica la anchura de una imagen								[pixels]
+
+
+<input> Campo donde un usuario puede introducir información (variada interactuabilidad)
+	<input accept="image/*"> Filtro sobre qué tipo de fichero puede escoger un usuario de una caja			[file_extension, audio/*, video/*, image/*, media_type]
+	<input alt="submit"> Especifica texto alternativo para imágenes							[text]
+	<input autocomplete="off"> Si está activado, saldrá un elemento de completar tu añadidura			[on, off]
+	<input autofocus> Un elemento se activará cuando se cargue la página (no mucha idea todavía)			[autofocus]
+	<input checked> Lista de cuadraditos para marcar y desmarcar elecciones por el usuario				[checked]
+	<input dirname="fname.dir"> Especifica que el texto enviado será registrado					[inputname.dir]
+	<input disabled> Desactivar (apareciendo en gris) un elemento input						[disabled]
+	<input form="form1"> Especifica la forma a la que un elemento input pertenece					[form_id]
+	<input formaction="/index.php"> Muestra la URL del archivo que procesará el input cuando sea registrado		[URL]
+	<input formenctype="text/plain"> Indica cómo deberían ser codificados los datos del formulario enviados		[application/x-www-form-urlencoded, multipart/form-data, text/plain]
+	<input formmethod="post"> Define el método HTTP para enviar datos a la acción URL 				[get, post]
+	<input formnovalidate="formnovalidate"> Define de qué manera no deberían validarse los elementos enviados	[formnovalidate]
+	<input formtarget="_blank"> Dónde visualizar la respuesta recibida tras enviar el formulario			[_blank, _self, _parent, _top, framename]
+	<input height="48"> Cambiar la altura de un elemento input							[pixels]
+	<input list="browsers"> Refiere a una lista de elementos con opciones de input predefinidas			[datalist_id]
+	<input max="5"> Especifica el valor máximo de un elemento input							[number, date]
+	<input maxlength="10"> Especifica el número de caracteres máximos permitidos en un input			[number]
+	<input min="1"> Especifica un valor mínimo para un elemento de entrada (input)					[number, date]
+	<input minlength="88"> Especifica el número mínimo de caracteres permitidos en un input				[number]
+	<input multiple> Especifica que que un usuario puede introducir más de un valor en un input			[multiple]
+	<input name="fname"> Señala el nombre de un elemento input							[text]
+	<input pattern="[A-Za-z]{3}"> Define una expresion regular cuyo valor del elemento debe ser validado		[regexp]
+	<input placeholder="905 447 001"> Proporciona una sugerencia al usuario de lo introducible en un campo		[text]
+	<input id= "country" readonly> Indica si el elemento puede ser editado por el usuario				[readonly]
+	<input id= "BS" required> Indica si se debe rellenar o no este elemento						[required]
+	<input size="4"> Define el ancho del elemento (en píxeles)							[number]
+	<input src="risas.gif"> La URL de una imagen o del contenido integrable						[URL]
+	<input step="3"> Indica el valor del incremento para un valor numerico o de fecha				[number, any]
+	<input type="submit"> Define el tipo de elemento								[button, checkbox, color, date, datetime-local, email, file, hidden, image, month, number, password, radio, range, reset, search, submit, tel, text, time, url, week]
+	<input value="Johnny"> Define el valor predeterminado a ser mostrado al cargar la página			[text]
+	<input width="48"> Establece el ancho de un elemento								[pixels]
+
+<ins> Insertar, añadir o adición en el documento </ins>
+	<ins cite="inserted.htm"> Explica de una URL al documento por qué un texto fue insertado/cambiado </ins>	[URL]
+	<ins datetime="2015-09-15T22:55:03Z"> Especifica cuándo el texto fue insertado o cambiado </ins>		[YYYY-MM-DDThh:mm:ssTZD]
+
+
+<kbd> Entrada de usuario (teclado, voz, otros periféricos...) </kbd>											
+
+
+<label> Representa el título de un control de formulario </label>
+	<label for="male"> Especifica la id a la que los elementos de un formulario están sujetos </label>		[element_id]
+	<label form="form1"> Especifica a qué formulario pertenece una etiqueta </label>				[form_id]
+
+
+<legend> Representa el título de un «fieldset» </legend>
+
+
+<li> Para crear un artículo de una lista enumerada </li>
+	<li value="100"> Señala el valor de inicio de una lista autoincremental de ítems {para «ol»} </li>		[number]
+
+
+<link/> Usada para enlazar archivos externos (JavaScript y CSS) con el documento HTML actual
+	<link crossorigin=""> Cómo el elemento maneja las peticiones transfronterizas 					[anonymous, use-credentials]
+	<link href="styles.css"> La URL de un recurso asociado 								[URL]
+	<link hreflang="tag_link.asp"> Especifica el lenguaje del recurso asociado 					[language_code]
+	<link media="print"> Da un indicio del tipo de medio para el cual el recurso vinculado fue creado		[media_query]
+	<link referrerpolicy> Qué referencia usar cuando busque el recurso 						[no-referrer, no-referrer-when-downgrade, origin, origin-when-cross-origin, unsafe-url]
+	<link rel="stylesheet" href="styles.css"> Especifica la relación entre el objeto destino y el objeto enlace 	[alternate, author, dns-prefetch, help, icon, license, next, pingback, preconnect, prefetch, preload, prerender, prev, search, stylesheet]
+	<link sizes="16x16"> Define los tamaños en los que el icono puede ser cargado 					[HeightxWidth, any]
+	<link title=""> exto a ser mostrado cuando el cursor esté sobre el elemento
+	<link type="text/css"> Define el tipo de elemento o medio del documento enlazado/conectado			[media_type]
+
+
+<main> Define el contenido principal o importante en el documento (solo puede haber uno) </main>
+
+
+<map> En conjunto con «area» define un mapa de imagen </map>
+	<map name="workmap"> Nombre del elemento para identificar los campos en el envio de formularios </map>		[mapname]
+
+
+<mark> Texto resaltado con propósitos de referencia por su relevancia en otro contexto </mark>
+
+
+<meta/> Etiqueta semántica que define los metadatos dentro de un archivo HTML
+	<meta charset="UTF-8"> Especifica la codificación de caracteres para el documento HTML 				[character_set]
+	<meta content="keywords"> Describe el metadata dentro de un documento HTML 					[text]
+	<meta http-equiv="refresh" content="30"> Refresca un documento cada 30 segundos 				[content-security-policy, content-type, default-style, refresh]
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> Autor, descripciones, reescaladas... 	[application-name, author, description, generator, keywords, viewport]
+
+
+<meter> Representa la medida escalar (o el valor fraccionario) dentro de un rango conocido </meter>
+	<meter form="form1"> Especifica el formulario al que pertenece dicha etiqueta </meter>				[form_id]
+	<meter high="90"> El rango donde el valor gauge (el medidor) considera un valor alto </meter>			[number]
+	<meter low="40"> Rango donde el medidor lo consideraría como un valor bajo </meter>				[number]
+	<meter max="100"> Límite máximo superior de un gauge o medidor </meter>						[number]
+	<meter min="0"> Límite mínimo de un medidor </meter>								[number]
+	<meter optimum="0.5"> Especifica el rango donde el medidor lo consideraría como un valor óptimo </meter>	[number]
+	<meter value="65"> El valor actual o medido del gauge, del medidor </meter>					[number]
+
+
+<nav> Define una sección que solamente contiene enlaces de navegación </nav>
+
+
+
+<noscript> Contenido alternativo a mostrar cuando el navegador no soporta el scripting </noscript>
+
+
+<object> Recurso externo que será tratado como una imagen a ser procesado por un plugin. </object>
+	<object data="pic_tormenta.jpg"> Especifica la URL del recurso usado por el objeto </object> 			[URL]
+	<object form> Especifica el formulario al que pertenece dicha etiqueta </object> 				[form_id]
+	<object height="300"> Especifica la altura del objeto en píxeles </object> 					[pixels]
+	<object name="obj1"> Especifica el nombre del elemento del tag </object> 					[name]
+	<object type="image/jpg"> Indica el tipo de medio de Internet del objeto </object> 				[media_type]
+	<object typemustmatch> Si el tipo de atributo y el contenido del recurso coinciden, a la pantalla </object>	[true/false]
+	<object usemap="#planetmap"> Especifica el nombre de un mapa-imagen para usar con el objeto </object> 		[#mapname]
+	<object width="300"> Especifica la anchura del objeto en píxeles </object> 					[pixels]
+
+
+<ol> Define una lista ordenada y enumerada de artículos (dentro iría «li») </ol>
+	<ol reversed> Lista de valor numérico de orden descendente en lugar del predefinido ascendente </ol>		[reversed]
+	<ol start="50"> Empieza a partir del número introducido como valor de atributo </ol>				[number]
+	<ol type="I"> tipo de enumeración usada en la lista, en este caso números romanos en mayúsculas </ol>		[1, A, a, I, i]
+
+
+<optgroup> Representa un conjunto de opciones, agrupadas lógicamente </optgroup>
+	<optgroup disabled> Desactivar una etiqueta específica de opción grupal </optgroup>				[disabled]
+	<optgroup label="German Cars"> Etiqueta para un grupo de opciones a escoger </optgroup>				[text]
+
+
+<option> Una opción en un elemento «select» o una sugerencia de un elemento «datalist» </option>
+	<option disabled> Desactiva una opción para no poder ser escogida (ni siquiera manipular)  </option>		[disabled]
+	<option label="A4"> Especifica una versión más corta de una opción, por ejemplo "Audi A4" </option>		[text]
+	<option selected> Elección preelegida cuando se carga la página </option>					[selected]
+	<option value="A4"> Valor con el que va a ser enviado (send) al servidor cuando se envíe (submit) </option>	[text]
+
+
+<output> Representa el resultado de un cálculo </output>
+	<output for="a b"> Especifica la relación entre el resultado y los elementos usados en un cálculo </output>	[element_id]
+	<output form="numform"> El formulario al que pertenecerá dicha etiqueta output </output>			[form_id]
+	<output name="x"> Usado para referenciar datos de formulario después de haber sido presentado </output>		[name]
+
+
+<p>	Parte que debe mostrarse como un párrafo </p>
+
+
+<param> Define parámetros para el uso por los plugins invocados por los elementos «object»
+	<param name="autoplay"> Seleccionar un parámetro específico							[name]
+	<param value="true"> Activar una función, en este caso un booleano (true or false)				[value]
+
+
+<picture> Da mayor flexibilidad a los desarrolladores a la hora de especificar recursos de imagen </picture>
+
+
+<pre> Preformatea el texto mostrando su contenido igual que como se escribió </pre>
+
+
+<progress> Representa el progreso de finalización de una tarea </progress>
+	<progress max="100"> Cuánto trabajo requiere la tarea para hacerse al completo </progress>			[number]
+	<progress value="32"> Cuánto trabajo ha sido completado del total marcado (32%) </progress>			[number]
+
+
+<q> Representa una cita textual inline </q>
+	<q cite="http://www.wwf.org"> Especifica la URL (absoluta o relativa) de una cita (quote) </q>			[URL]
+
+
+<rp> Paréntesis alrededor de una anotación «ruby» para ciertos despliegues de anotaciones </rp>
+
+
+<rt> Representa el texto de una anotación «ruby» </rt>
+
+
+<ruby> Recorridos cortos de texto presentados junto al texto como contenido </ruby>
+
+
+<s> Contenido que ya no es exacto o no es relevante </s>
+
+
+<samp> Representa la salida de un programa o un ordenador </samp>
+
+
+<script> Define código interno o un enlace hacia un script externo usando Javascript </script>
+	<script async> Se ejecutará asíncronamente tan pronto como esté disponible </script>				[async]
+	<script charset="UTF-8"> Especifica la codificación de caracteres en un script file externo </script>		[charset]
+	<script defer> El guion se ejecutará cuando la página haya terminado de analizar (hacer parsing) </script>	[defer]
+	<script src="myscripts.js"> Especifica la URL de un archivo de códigos externo </script>			[URL]
+	<script type="text/javascript"> Especifica el tipo de medio de Internet [tipo MIME] de un guion </script>	[media_type]
+
+
+<section> Define una sección en un documento </section>
+ 
+
+<select> Representa un control que permite la selección entre un conjunto de opciones </select>
+	<select autofocus> La lista desplegable debe enfocarse automáticamente cuando se carga la página </select>	[autofocus]
+	<select disabled> Especifica que la lista desplegable debe estar deshabilitada </select>			[disabled]
+	<select form="carform"> Especifica el formulario al que pertenece la lista desplegable </select>		[form_id]
+	<select multiple> Se pueden seleccionar múltiples opciones a la vez </select>					[multiple]
+	<select name="cars"> Especifica el nombre de una lista desplegable </select>					[name]
+	<select required> El usuario debe seleccionar un valor antes de enviar el formulario </select>			[required]
+	<select size="3"> Especifica el número de opciones visibles en una lista desplegable </select>			[number]
+
+
+<small> Textos no esenciales como un descargo de responsabilidad o derechos de autoría </small>
+
+
+<source> Permite especificar recursos multimedia alternativos para los elementos multimedia
+	<source media="(min-width:650px)"> Acepta cualquier consulta de medios válida que se definiría en CSS		[media_query]
+	<source sizes> Especifica tamaños de imagen para diferentes diseños de página
+	<source src="horse.ogg"> Especifica la URL del archivo multimedia que se reproducirá.				[URL]
+	<source srcset> Especifica la URL de la imagen para usar en diferentes situaciones.				[URL]
+	<source type=""> Especifica el tipo de medio de Internet del recurso de medio.					[MIME-type]
+
+
+<span> Texto sin un significado específico si no se halla la semántica adecuada </span>
+
+
+<strong> Texto en negrita </strong>
+
+
+<style> Etiqueta de estilo usada para escribir CSS en línea </style>
+	<style media="print"> Especifica para qué medio / dispositivo está optimizado el estilo CSS </style>		[media_query]
+	<style type="text/css"> El tipo de medio de Internet (anterior tipo MIME) de la etiqueta </style>		[text/css]
+
+
+<sub> Subíndice </sub>
+
+
+<summary> Representa un resumen, título o leyenda para un elemento «details» dado </summary>
+
+
+<sup> Superíndice </sup>
+
+
+<svg> Imagen vectorial embebida </svg>
+
+
+<table> Representa datos con más de una dimensión </table>
+
+
+<tbody> Representa el bloque de filas que describen los datos concretos de una tabla </tbody>
+
+
+<td> Columna de una tabla. Si las tabulas dentro de una fila saldrá escrito una línea normal </td> 			<!--Define una celda de datos estándar en una tabla HTML -->
+	<td colspan="2"> Define el número de columnas que debe abarcar una celda </td>					[number]
+	<td headers="email"> Especifica una o + celdas de encabezado que está relacionada una celda de tabla </td>	[header_id]
+	<td rowspan="4"> Especifica el número de filas que debe abarcar una celda </td>					[number]
+
+
+<template> Para mantener algo de contenido HTML oculto al usuario cuando se carga la página </template>
+
+
+<textarea> Representa un control de edición de texto multilínea </textarea>
+	<textarea autofocus> El área de texto debe enfocarse automáticamente cuando se carga la página </textarea>	[autofocus]
+	<textarea cols="50"> Especifica el ancho visible de un área de texto </textarea>				[number]
+	<textarea dirname="explanation.dir"> Habilita el envío de la dirección del texto del tag </textarea>		[textareaname.dir]
+	<textarea disabled> Especifica que el área de texto debe estar deshabilitada </textarea>			[disabled]
+	<textarea form="usrform"> Especifica el formulario al que pertenece el área de texto. </textarea>		[form_id]
+	<textarea maxlength="50"> El número máximo de caracteres permitido en un textarea </textarea>			[number]
+	<textarea name="comment"> Especifica un nombre para un área de texto </textarea>				[text]
+	<textarea placeholder="zzz"> Pequeña pista que describe el valor esperado de un área de texto </textarea>	[text]
+	<textarea readonly> Especifica que un área de texto debe ser de solo lectura </textarea>			[readonly]
+	<textarea required> Se requiere o debe completar un área de texto (para enviar el formulario) </textarea>	[required]
+	<textarea rows=""> Especifica la altura visible de un área de texto, en líneas </textarea>			[number]
+	<textarea wrap=""> Cómo se ajustará el texto cuando se envíe en un formulario </textarea>			[hard, soft]
+
+
+<tfoot> Bloques de filas que describen los resúmenes de columna de una tabla </tfoot>
+
+
+<th> Representa una celda encabezado en una tabla </th>
+	<th abbr=""> Especifica una versión más corta del contenido en una celda de encabezado </th>			[text]
+	<th colspan="2"> Define el número de columnas que debe abarcar una celda </th>					[number]
+	<th headers="name"> Especifica una o + celdas de encabezado que está relacionada una celda de tabla </th>	[header_id]
+	<th rowspan="3"> Especifica el número de filas que debe abarcar una celda </th>					[number]
+	<th scope="col"> Si una celda de encabezado es para una columna, fila o grupo de columnas o filas </th>		[col, colgroup, row, rowgroup]
+
+
+<thead> Bloque de filas que describen las etiquetas de columna de una tabla </thead>
+
+
+<time> Valor de fecha y hora </time>
+	<time datetime=""> Representa un formato legible por la máquina </time>						[datetime]
+
+
+<title> Título del documento en la barra del navegador o pestaña de página </title>
+
+
+<tr> Fila de una tabla. Si tabulas «tr» dentro de una «td» sale una tabla sin líneas divisorias </tr>
+
+
+<track/> Especificar una pista de texto temporizado para elementos multimedia
+	<track default> La pista se habilitará si las preferencias del usuario no indican  otra más apropiada		[default]
+	<track kind="subtitles"> El tipo de pista de texto								[captions, chapters, descriptions, metadata, subtitles]
+	<track label="Norwegian"> El título de la pista	musical								[text]
+	<track src=""> Especifica la URL del archivo de la pista							[URL]
+	<track srclang=""> Especifica el idioma de los datos del texto de la pista					[language_code]
+
+
+<u> Para subrayar un texto </u>
+
+
+<ul> Lista de artículos sin orden. Incluyen «li» y «ul» (listas ordenadas y desordenadas) </ul>													
+
+
+<var> Variable o expresión matemática en un contexto de programación </var>
+
+
+<video> Video con sus archivos de audio e interfaz necesaria para reproducirlos </video> 	
+	<video autoplay> El vídeo se reproducirá automáticamente sin detenerse tan pronto como pueda </video>		[autoplay]
+	<video controls> Los controles de vídeo deberían desplegarse </video>						[controls]
+	<video height="240"> La altura de un reproductor de video (siempre especificad altura y anchura) </video>	[pixels]
+	<video loop> El video comenzará de nuevo cada vez que termine </video>						[loop]
+	<video muted> La salida de audio estará silenciada </video>							[muted]
+	<video poster="/images/w3html5.gif"> Mostrar una imagen durante la descarga hasta darle al play </video>	[URL]
+	<video preload="none"> Si el autor piensa que el vídeo debería cargarse a la par que la página </video>		[auto, metadata, none]
+	<video src="movie.ogg"> Especifica la localización URL de un archivo de vídeo </video>				[URL]
+	<video width="240"> La anchura de un reproductor de video (siempre especificad altura y anchura) </video>	[pixels]
+
+
+<wbr/> Oportunidad de salto de línea en un texto largo para mejorar su legibilidad
+
+
+NO SOPORTADOS POR HTML5 [12]
+
+<!-- <acronym> 	-->
+<!-- <applet> 	-->
+<!-- <basefont> -->
+<!-- <big> 	-->
+<!-- <center> 	-->
+<!-- <dir> 	-->
+<!-- <font> 	-->
+<!-- <frame> 	-->
+<!-- <frameset> -->
+<!-- <noframes> -->
+<!-- <strike> 	-->
+<!-- <tt> 	-->
+
+ANOTACIONES
+- &nbsp: poner más de un espacio en blanco.
+- &#60;body&#62.: para escribir caracteres especiales.
+
+<!-- LISTADO DE ATRIBUTOS GLOBALES: https://www.w3schools.com/tags/ref_standardattributes.asp -->
+
+<uno accesskey> Establece un atajo de teclado para activar o priorizar un elemento (en plan llevarte a diferentes partes del texto apareciendo '#' en la url, creo) </uno>
+<dos class> Especifica uno o más nombres de clases para un elemento </dos>
+<tres contenteditable> Permite modificar el texto de la página que estás leyendo directamente en el sitio web (aunque sin guardar después los cambios, creo) </tres>
+<cuatro data-*> Se usa para almacenar datos privados para la página o aplicación (click y pop-up) </cuatro>
+<cinco dir> Especifica la dirección del texto del contenido de un elemento (Alinear texto en Word por ejemplo, creo) </cinco>
+<seis draggable> Hacer que un texto se pueda coger y trasladar a otras partes de la pantalla, como dentro un recuadro </seis>
+<siete hidden> Para que los buscadores no muestren algunos elementos cuando éstos dejen de ser relevantes </siete>
+<ocho id> Especifica una identificación única a un elemento HTML. Permite modificar el formato visual del mismo por ejemplo (debe contener un caracter al menos sin espacios) </ocho>
+<nueve lang> Especifica el lenguaje del contenido de un elemento (entendiendo elemento como conjunto de caracteres (letras, números, etc)) </nueve>
+<diez spellcheck> Un parágrafo editable con posibilidad de chequear la gramática escrita si el valor es true. </diez>
+<once style> Una o más propiedades y valores de CSS separadas por ';' para diseñar textos y partes de una web como queramos </once>
+<doce tabindex> Permite que al pusar la tecla tabulación vayamos saltando a diferentes elementos navegables de una página web </doce>
+<trece title> Título que ofrece información extra sobre el elemento en el que se encuentre su aviso visual (en teoría) </trece>
+<catorce translate> Especificar que no quieres traducir algunas partes del texto o elementos escritos </catorce>
+
+
+<!-- LISTADO DE ATRIBUTOS EVENTUALES DE VALOR SCRIPT: https://www.w3schools.com/tags/ref_eventattributes.asp -->
+*WINDOW EVENT ATTRIBUTES*
+1- onafterprint: Te avisa de que has empezado a imprimir algo (cuando accedes Ctrl + P, aunque luego le hayas dado a cancelar ¬¬).
+2- onbeforeprint: Salta un aviso de que, efectivamente, vas a imprimir este documento (también depende del navegador soportado.
+3- onbeforeunload: Si cierras la ventana, pulsas F5 o vas a cambiar tu URL, sale un aviso en plan "Tus cambios no se guardarán, ¿estás seguro de salir?".
+4- onerror: Ventana emergente y aviso de que hay algo que no se ha podido cargar en la página.
+5- onhashchange: Sucede cuando han habido cambios en la parte anchor [CSS] (empieza con el símbolo '#') de la URL actual.
+6- onload: Aviso emergente de que la página ya ha sido por fin cargada.
+7- onmessage: Cuando se activa un mensaje aparecerá otro mensaje impreso (mostrado) en pantalla.
+8- onoffline: El código aparecerá si el navegador empieza a trabajar fuera de línea.
+9- ononline: El código aparecerá si el navegador empieza a trabajar en línea.
+10- onpagehide: Código que se ejecutará cuando el usuario navegue alejándose de una página.
+11- onpageshow: Ventana emergente cuando el usuario navega a una página web.
+12- onpopstate: Mensaje que surge cuando el historial cambia.
+13- onresize: Al modificar el tamaño de ventana aparecerá un mensaje. Cada vez que hagas la más mínima modificación.
+14- onstorage: Mensaje de "La tienda de una página web" ha sido actualizada, en ese plan.
+15- onunload: Cuando dejas de cargar cierta página o se cierra el buscador, aparecerá dicho mensaje.
+
+*FORM EVENTS*
+1- onblur: Cuando escribes en un input, formatea su estilo temporalmente (texto y background) mientras escribes dentro.
+2- onchange: Seleccionar un elemento de una lista desplegable que indicará lo que hayas escogido.
+3- oncontextmenu: Menú contextual que surge cuando haces click derecho sobre un elemento concreto para ver más opciones.
+4- onfocus: Cuando haces click en un elemento, cambia su formato inmediatamente por mucho que lo descliques después.
+5- oninput: Sale duplicado a tiempo real lo que estés escribiendo en el elemento input o textarea en otro lado de la pantalla.
+6- oninvalid: Cuando envías algo inválido dentro de un elemento input.
+7- onreset: Resetear algo escrito y borrarlo de golpe al clicar un botón destinado a tal efecto, por ejemplo.
+8- onsearch: Escribes algo, le das a Enter y te sale un elemento de tipo search indicando la búsqueda que estás efectuando.
+9- onselect: Cuando seleccionas parte de un texto con el botón primario del ratón saldrá un mensaje emergente (ideal para evitar copy-past en tu web).
+10- onsubmit: Reitera lo que efectivamente hayas subido al darle al input.
+
+*KEYBOARD EVENTS*
+1- onkeydown: Mientras pulsas una tecla dentro del input saldrá una ventana emergente.
+2- onkeypress: Cuando hayas pulsado una tecla dentro del input saldrá un pop-up emergente.
+3- onkeyup: Cuando sueltes o dejes de apretar una tecla dentro del input saldrá el aviso.
+
+*MOUSE EVENTS*
+1- onclick: Si haces click con el ratón disparas un evento del elemento accionado.
+2- ondblclick: Si haces doble click seguido con el ratón disparas un evento del elemento accionado.
+3- onmousedown: Cuando pulsas con el botón primario del ratón sobre un texto, puedes hacerlo cambiar de color durante y tras el clicado.
+4- onmousemove: Cuando posas el ratón encima de una imagen, ésta se agrandará automáticamente (como en las tiendas Amazon).
+5- onmouseout: Parecido pero en teoría cuando mueves el puntero fuera de un elemento.
+6- onmouseover: Parecido pero cuando el puntero se mueve sobre un elemento (frecuentemente una imagen).
+7- onmouseup: Cuando pulsas con el botón primario del ratón sobre un texto, puedes hacerlo cambiar de color durante y tras el clicado.
+8- onwheel: Si activas la ruleta del ratón encima de un elemento, realizará una acción, como agrandarse por ejemplo.
+
+*DRAG EVENTS*
+1- ondrag: Un evento ocurre si está siendo arrastrado un texto o un elemento.
+2- ondragend: Un evento que ocurre si un texto o un elemento ha sido arrastrado de un punto A a un punto B.
+3- ondragenter: El arrastre permite indicarte si al querer depositarlo en un lugar (mientras mantienes preto el click izqdo) entraría o no dicho elemento.
+4- ondragleave: Lo mismo pero una vez has soltado el elemento arrastrado de una zona A a una zona B.
+5- ondragover: Cuando un elemento o texto arrastrable está siendo arrastrado sobre un objetivo de depósito válido.
+6- ondragstart: Cuando comienzas a arrastrar un elemento o texto de un punto A a un punto B sin resaltar las áreas involucradas en dicha operación.
+7- ondrop: Igual que el anterior pero una vez ya has arrastrado el elemento, no mientras lo estás arrastrando o comenzado a arrastrar.
+8- onscroll: Si haces ruleta en cierta zona o texto, no solo avanzará si hay información todavía por mostrarse sino que además puedes formatear su estilo.
+
+*CLIPBOARD EVENTS*
+1- oncopy: Te avisa cuando has copiado un texto.
+2- oncut: Te avisa cuando has cortado (que no copiado) un texto.
+3- onpaste: Te avisa cuando has pegado un texto.
+
+*MEDIA EVENTS*
+1- onabort: Script que se ejecutará al cancelar.
+2- oncanplay: Secuencia de comandos que se ejecutará cuando un archivo esté listo para comenzar a reproducirse (cuando se haya almacenado lo suficiente para comenzar).
+3- oncanplaythrough: Secuencia de comandos que se ejecutará cuando un archivo se pueda reproducir hasta el final sin pausa para almacenar.
+4- oncuechange: Script que se ejecutará cuando la cue cambie en un elemento track.
+5- ondurationchange: Script que se ejecutará cuando cambie la longitud del medio.
+6- onemptied: Secuencia de comandos que se ejecutará cuando ocurra algo malo y el archivo de repente no esté disponible (como si se desconectara inesperadamente).
+7- onended: Secuencia de comandos que se ejecutará cuando los medios hayan llegado al final (un evento útil para mensajes como "gracias por escuchar").
+8- onerror: Script que se ejecutará cuando se produzca un error al cargar el archivo.
+9- onloadeddata: Secuencia de comandos que se ejecutará cuando se carguen datos multimedia.
+10- onloadedmetadata: Script to be run when meta data (like dimensions and duration) are loaded.
+11- onloadstart: Secuencia de comandos que se ejecutará justo cuando el archivo comience a cargarse antes de que se cargue nada.
+12- onpause: Secuencia de comandos que se ejecutará cuando el medio esté en pausa, ya sea por el usuario o mediante programación.
+13- onplay: Secuencia de comandos que se ejecutará cuando el medio esté listo para comenzar a reproducirse.
+14- onplaying: Secuencia de comandos que se ejecutará cuando el medio haya comenzado a reproducirse.
+15- onprogress: Secuencia de comandos que se ejecutará cuando el navegador esté en proceso de obtener los datos multimedia.
+16- onratechange: Secuencia de comandos que se ejecutará cada vez que cambie la velocidad de reproducción (como cuando un usuario cambia a cámara lenta o modo de avance rápido).
+17- onseeked: Secuencia de comandos que se ejecutará cuando el atributo de búsqueda se establezca en falso, lo que indica que la búsqueda ha finalizado.
+18- onseeking: Secuencia de comandos que se ejecutará cuando el atributo de búsqueda se establezca en verdadero, lo que indica que la búsqueda está activa.
+19- onstalled: Secuencia de comandos que se ejecutará cuando el navegador no pueda obtener los datos multimedia por cualquier motivo.
+20- onsuspend: La secuencia de comandos que se ejecutará cuando la obtención de datos multimedia se detiene antes de que se cargue por completo por cualquier motivo.
+21- ontimeupdate: Secuencia de comandos que se ejecutará cuando la posición de reproducción haya cambiado (como cuando el usuario avanza rápidamente a un punto diferente en el medio).
+22- onvolumechange: Secuencia de comandos que se ejecutará cada vez que se cambie el volumen, lo cual (incluye configurar el volumen en "silencio").
+23- onwaiting: Secuencia de comandos que se ejecutará cuando el medio se haya detenido pero se espera que se reanude (como cuando el medio se detiene para almacenar más datos en el búfer).
+
+*MISC EVENTS*
+1- ontoggle: Cuando el usuario abre o cierra un elemento que permite mostrar Más detalles.
+
+*AUDIO/VIDEO METHODS* <!--https://www.w3schools.com/tags/ref_av_dom.asp-->
+1. addTextTrack(): Agrega una nueva pista de texto al audio / video.
+2. canPlayType(): Comprueba si el navegador puede reproducir el tipo de audio / video especificado.
+3. load(): Recargar el elemento de audio / video.
+4. play(): Reproducir el audio / video.
+5. pause(): Pausar el audio / video.
+
+*AUDIO/VIDEO PROPERTIES*
+1. audioTracks: Devuelve un objeto AudioTrackList que representa las pistas de audio disponibles.
+2. autoplay: Establece o devuelve si el audio / video debe comenzar a reproducirse tan pronto como se cargue.
+3. buffered: Devuelve un objeto TimeRanges que representa las partes almacenadas en búfer del audio / video.
+4. controller: Devuelve el objeto MediaController que representa el controlador de medios actual del audio / video.
+5. controls: Establece o devuelve si el audio / video debe mostrar controles (como reproducción / pausa, etc.).
+6. crossOrigin: Establece o devuelve la configuración CORS (Cross Origin Resource Sharing; Intercambio de Recursos de Origen Cruzado) del audio / video.
+7. CurrentSrc: Devuelve la URL del audio / video actual.
+8. currentTime: Establece o devuelve la posición de reproducción actual en el audio / video (en segundos).
+9. defaultMuted: Establece o devuelve si el audio / video debe silenciarse de forma predeterminada.
+10. defaultPlaybackRate: Establece o devuelve la velocidad predeterminada de reproducción de audio / video.
+11. duration: Devuelve la duración del audio / video actual (en segundos).
+12. ended: Devuelve si la reproducción del audio / video ha finalizado o no.
+13. error: Returns a MediaError object representing the error state of the audio/video.
+14. loop: Establece o devuelve si el audio / video debe comenzar de nuevo cuando termine.
+15. mediaGroup: Establece o devuelve el grupo al que pertenece el audio / video (usado para vincular múltiples elementos de audio / video).
+16. muted: Establece o devuelve si el audio / video está silenciado o no.
+17. networkState: Devuelve el estado actual de la red del audio / video.
+18. paused: Devuelve si el audio / video está en pausa o no.
+19. playbackRate: Establece o devuelve la velocidad de reproducción de audio / video.
+20. played: Devuelve un objeto TimeRanges que representa las partes reproducidas del audio / video.
+21. preload: Establece o devuelve si el audio / video debe cargarse cuando se carga la página.
+22. readyState: Devuelve el estado listo actual del audio / video.
+23. seekable: Devuelve un objeto TimeRanges que representa las partes buscables del audio / video.
+24. seeking: Devuelve si el usuario está buscando actualmente en el audio / video.
+25. src: Establece o devuelve la fuente actual del elemento de audio / video.
+26. startDate: Devuelve un objeto de fecha que representa el desplazamiento de tiempo actual.
+27. textTracks: Devuelve un objeto TextTrackList que representa las pistas de texto disponibles.
+28. videoTracks: Devuelve un objeto VideoTrackList que representa las pistas de video disponibles.
+29. volume: Establece o devuelve el volumen del audio / video.
+
+*AUDIO/VIDEO EVENTS*
+1. abort: Se dispara cuando se cancela la carga de un audio / video.
+2. canplay: Se activa cuando el navegador puede comenzar a reproducir el audio / video.
+3. canplaythrough: Se activa cuando el navegador puede reproducir el audio / video sin detenerse para almacenar en búfer.
+4. durationchange: Se dispara cuando se cambia la duración del audio / video.
+5. emptied: Se activa cuando la lista de reproducción actual está vacía.
+6. ended: Se activa cuando finaliza la lista de reproducción actual.
+7. error: Se activa cuando se produce un error durante la carga de un audio / video.
+8. loadeddata: Se activa cuando el navegador ha cargado el fotograma actual del audio / video.
+9. loadedmetadata: Se activa cuando el navegador ha cargado metadatos para el audio / video.
+10. loadstart: Se activa cuando el navegador comienza a buscar el audio / video.
+11. pause: Se dispara cuando el audio / video se ha detenido.
+12. play: Se activa cuando el audio / video se ha iniciado o ya no está en pausa.
+13. playing: Se dispara cuando el audio / video se está reproduciendo después de haber sido pausado o detenido para almacenamiento en búfer.
+14. progress: Se activa cuando el navegador está descargando el audio / video.
+15. ratechange: Se dispara cuando se cambia la velocidad de reproducción del audio / video.
+16. seeked: Se activa cuando el usuario termina de moverse / saltar a una nueva posición en el audio / video.
+17. seeking: Se dispara cuando el usuario comienza a moverse / saltar a una nueva posición en el audio / video.
+18. stalled: Se activa cuando el navegador intenta obtener datos multimedia, pero los datos no están disponibles.
+19. suspend: Se activa cuando el navegador no obtiene datos multimedia de forma intencionada.
+20. timeupdate: Se dispara cuando la posición de reproducción actual ha cambiado.
+21. volumechange: Se dispara cuando se cambia el volumen.
+22. waiting: Se dispara cuando el video se detiene porque necesita almacenar en búfer el siguiente cuadro.
+
+<END></END>
